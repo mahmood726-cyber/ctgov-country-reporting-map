@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Country Reporting Map",
+  "slug": "ctgov-country-reporting-map",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-country-reporting-map",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across named country involvements among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how named country involvement maps onto large geographic visibility divides in older CT.gov studies.",
+  "body": "Which named countries are attached to the quietest older CT.gov studies once country involvement is extracted from recorded trial locations? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged named country lists from the raw locations module. The project explodes country involvement at the study-country level and compares two-year no-results rates, ghost-protocol rates, and visible shares across countries with at least 800 eligible older studies. United States appears in the largest stock at 104,882 eligible older studies and shows a 52.1 percent no-results rate. Egypt is the worst large named country at 95.8 percent no results, China reaches 81.7 percent, while Poland falls to 33.5 percent and Australia to 43.4 percent. Named-country involvement therefore exposes large geographic transparency divides that are hidden by simple country-count buckets alone for large country-linked backlogs. Country labels reflect recorded study locations rather than verified enrollment shares, coordination centers, or country-specific legal duties.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named countries are attached to the quietest older CT.gov studies once country involvement is extracted from recorded trial locations?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged named country lists from the raw locations module."
+    },
+    {
+      "role": "Method",
+      "text": "The project explodes country involvement at the study-country level and compares two-year no-results rates, ghost-protocol rates, and visible shares across countries with at least 800 eligible older studies."
+    },
+    {
+      "role": "Primary result",
+      "text": "United States appears in the largest stock at 104,882 eligible older studies and shows a 52.1 percent no-results rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Egypt is the worst large named country at 95.8 percent no results, China reaches 81.7 percent, while Poland falls to 33.5 percent and Australia to 43.4 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Named-country involvement therefore exposes large geographic transparency divides that are hidden by simple country-count buckets alone for large country-linked backlogs."
+    },
+    {
+      "role": "Boundary",
+      "text": "Country labels reflect recorded study locations rather than verified enrollment shares, coordination centers, or country-specific legal duties."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Country Reporting Map dashboard",
+    "data": "249,507 eligible older closed interventional studies merged with extracted named-country labels from raw locations",
+    "code": "https://github.com/mahmood726-cyber/ctgov-country-reporting-map",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
